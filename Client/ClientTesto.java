@@ -1,3 +1,6 @@
+//inviare linee di testo da un programma (Client) ad un altro (Server) 
+//anche eventualmente remoto
+
 /*
  * ClientTesto.java e' il programma per connettersi ad un Server usando i socket
  * ed inviare il testo ricevuto dalla linea di comando.
