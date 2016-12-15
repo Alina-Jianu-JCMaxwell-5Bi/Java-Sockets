@@ -17,6 +17,7 @@ class SocketWorker implements Runnable {
     SocketWorker(Socket client) {
         this.client = client;
         System.out.println("Connesso con: " + client);
+        System.out.println("Inserire Nickname");
     }
 
     // Questa e' la funzione che viene lanciata quando il nuovo "Thread" viene generato
