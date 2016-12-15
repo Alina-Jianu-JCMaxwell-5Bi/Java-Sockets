@@ -32,7 +32,10 @@ class SocketWorker implements Runnable {
           System.out.println("Errore: in|out fallito");
           System.exit(-1);
         }
-
+      
+      
+   
+        //PARTE DI CODICE DA MODIFICARE
         String line = "";
         int clientPort = client.getPort(); //il "nome" del mittente (client)
         while(line != null){
@@ -47,6 +50,9 @@ class SocketWorker implements Runnable {
             System.exit(-1);
            }
         }
+      
+      
+      
         try {
             client.close();
             System.out.println("connessione con client: " + client + " terminata!");
