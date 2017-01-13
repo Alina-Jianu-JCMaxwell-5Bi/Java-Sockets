@@ -1,5 +1,5 @@
 
-# Java-Sockets
+# Java-Sockets1
 Concetti e realizzazione di una semplice connessione Client/Server usando Sockets in Java
 ```
 Obitettivo del progetto: inviare linee di testo da un programma (Client)... -->
